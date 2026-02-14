@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bullet
   - Rock
+  - Small_Rock
+  - Big_Rock
   layers:
   - Default
   - TransparentFX

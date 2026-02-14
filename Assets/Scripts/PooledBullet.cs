@@ -14,7 +14,7 @@ public class PooledBullet : MonoBehaviour
         // Return to pool if out of bounds
         if (Mathf.Abs(transform.position.x) > 20 ||
             Mathf.Abs(transform.position.y) > 10 ||
-            Mathf.Abs(transform.position.z) > 200)
+            Mathf.Abs(transform.position.z) > 400)
         {
             ReturnToPool();
         }
